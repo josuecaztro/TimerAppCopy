@@ -18,8 +18,6 @@ body {
     color: white;
 }
 
-
-
 .flashing {
     animation: flash 1s linear infinite;
     color: black;
@@ -36,6 +34,8 @@ body {
 
 #timer-display {
     font-size: 10em;
+    margin: 50px;
+    text-shadow: 2.5px 2.5px black;
 }
 
 button {
@@ -58,18 +58,24 @@ button:active {
 
 #assistance-display {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     color: rgb(255, 255, 255);
+    gap: 10px;
     padding: 20px;
 }
 
 #real-time-container {
     color: white;
-    font-size: 75px;
+    font-size: 6em;
     border: 5px solid rgb(167, 189, 255);
     padding: 25px;
+    text-shadow: 2px 2px black;
 }
 
 #assistance-display h2 {
-    border-style:solid;
+    background-color: rgb(101, 101, 101);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2.5px 2.5px black;
+    text-shadow: 2px 2px black;
 }

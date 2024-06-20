@@ -35,7 +35,7 @@ function startCounter (){
 
       //Conditionals for TIMER COLOR ALERTS 
       if (hour === 1 && minute >= 30 && minute < 45){
-        timerContainer.style.background = "rgb(211, 207, 112)";
+        timerContainer.style.background = "rgb(196, 192, 80)";
        } else if (hour === 1 && minute >= 45) {
         timerContainer.style.background = "rgb(208, 60, 60)";
        } else if (hour === 1 && minute >= 50){
