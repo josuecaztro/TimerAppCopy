@@ -12,7 +12,7 @@ let subtractFifteenButton = document.querySelector("#subtract-15");
 
 //DECLARE ALL IMPORTANT VARIABLES
 let interval;
-let second = 58;
+let second = 0;
 let minute = 0;
 let hour = 0;
 
